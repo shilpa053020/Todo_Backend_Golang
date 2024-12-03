@@ -14,9 +14,9 @@
   - Gorilla Mux: HTTP request routing
 
 ## Getting Started
-## Follow these steps to set up and run the project locally.
+### Follow these steps to set up and run the project locally.
 
-## Make sure you have the following installed on your system:
+#### Make sure you have the following installed on your system:
   - Go (v1.18 or later)
   - MongoDB (Running on localhost)
   - Git
