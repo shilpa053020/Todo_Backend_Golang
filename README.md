@@ -8,23 +8,23 @@
   4.Delete Todos: Remove tasks from the list.
 
 ## Technologies Used
-  Golang: Backend logic
-  MongoDB: Database for storing todos
-  Context API: For managing timeout and cancellation in requests
-  Gorilla Mux: HTTP request routing
+  1.Golang: Backend logic
+  2.MongoDB: Database for storing todos
+  3.Context API: For managing timeout and cancellation in requests
+  4.Gorilla Mux: HTTP request routing
 
 ## Getting Started
 # Follow these steps to set up and run the project locally.
 
 ## Make sure you have the following installed on your system:
-  Go (v1.18 or later)
-  MongoDB (Running on localhost)
-  Git
+  1.Go (v1.18 or later)
+  2.MongoDB (Running on localhost)
+  3.Git
 
 
 ## Clone the repository:
-  git clone https://github.com/yourusername/Todo_Backend_Golang.git
-  cd Todo_Backend_Golang
+  1.git clone https://github.com/yourusername/Todo_Backend_Golang.git
+  2.cd Todo_Backend_Golang
 
 ## Install dependencies:
   go mod tidy
