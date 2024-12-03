@@ -1,38 +1,38 @@
-###Todo_Backend_Golang
-##A simple backend application built using Golang to perform basic CRUD (Create, Read, Update, Delete) operations for a Todo application.
+### Todo_Backend_Golang
+## A simple backend application built using Golang to perform basic CRUD (Create, Read, Update, Delete) operations for a Todo application.
 
-##Features
+## Features
   1.Create Todos: Add new tasks to your todo list.
   2.Read Todos: Fetch all existing tasks.
   3.Update Todos: Modify existing tasks by their ID.  
   4.Delete Todos: Remove tasks from the list.
 
-##Technologies Used
+## Technologies Used
   Golang: Backend logic
   MongoDB: Database for storing todos
   Context API: For managing timeout and cancellation in requests
   Gorilla Mux: HTTP request routing
 
-##Getting Started
-#Follow these steps to set up and run the project locally.
+## Getting Started
+# Follow these steps to set up and run the project locally.
 
-##Make sure you have the following installed on your system:
+## Make sure you have the following installed on your system:
   Go (v1.18 or later)
   MongoDB (Running on localhost)
   Git
 
 
-##Clone the repository:
+## Clone the repository:
   git clone https://github.com/yourusername/Todo_Backend_Golang.git
   cd Todo_Backend_Golang
 
-##Install dependencies:
+## Install dependencies:
   go mod tidy
 
-##Environment Variables:
+## Environment Variables:
 #Create a .env file in the root directory with the following content:
   MONGO_URI=mongodb://localhost:27017
   PORT = 5000
 
-##Run the application:
+## Run the application:
   go run main.go
