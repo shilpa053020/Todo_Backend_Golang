@@ -2,11 +2,10 @@
 ## A simple backend application built using Golang to perform basic CRUD (Create, Read, Update, Delete) operations for a Todo application.
 
 ## Features
-***
-  1.Create Todos: Add new tasks to your todo list.
-  2.Read Todos: Fetch all existing tasks.
-  3.Update Todos: Modify existing tasks by their ID.  
-  4.Delete Todos: Remove tasks from the list.
+  - 1.Create Todos: Add new tasks to your todo list.
+  - 2.Read Todos: Fetch all existing tasks.
+  - 3.Update Todos: Modify existing tasks by their ID.  
+  - 4.Delete Todos: Remove tasks from the list.
 
 ## Technologies Used
   1.Golang: Backend logic
