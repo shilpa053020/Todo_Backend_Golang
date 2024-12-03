@@ -1,5 +1,5 @@
 # Todo_Backend_Golang
-## A simple backend application built using Golang to perform basic CRUD (Create, Read, Update, Delete) operations for a Todo application.
+### A simple backend application built using Golang to perform basic CRUD (Create, Read, Update, Delete) operations for a Todo application.
 
 ## Features
   - Create Todos: Add new tasks to your todo list.
@@ -14,7 +14,7 @@
   - Gorilla Mux: HTTP request routing
 
 ## Getting Started
-# Follow these steps to set up and run the project locally.
+### Follow these steps to set up and run the project locally.
 
 ## Make sure you have the following installed on your system:
   - Go (v1.18 or later)
