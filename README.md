@@ -1,5 +1,5 @@
-### Todo_Backend_Golang
-## A simple backend application built using Golang to perform basic CRUD (Create, Read, Update, Delete) operations for a Todo application.
+## Todo_Backend_Golang
+# A simple backend application built using Golang to perform basic CRUD (Create, Read, Update, Delete) operations for a Todo application.
 
 ## Features
   1.Create Todos: Add new tasks to your todo list.
