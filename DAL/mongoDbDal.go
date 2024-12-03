@@ -4,8 +4,6 @@ import (
 	"Todo_Backend_Golang/Model"
 	"context"
 	"fmt"
-	"time"
-
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/bson/primitive"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -19,13 +17,10 @@ func NewMongoDbDal(client *mongo.Client, dbName, collectionName string) *MongoDb
 	collection := client.Database(dbName).Collection(collectionName)
 	return &MongoDbDAl{Collection: collection}
 }
+
 //CREATE A TODO
 func (db *MongoDbDAl) Create(ctx context.Context, todo Model.Todo) (*Model.Todo, error) {
 	todo.Id = primitive.NewObjectID()
-
-	ctx, cancel := context.WithTimeout(ctx, 5*time.Second)
-	defer cancel()
-
 	_, err := db.Collection.InsertOne(ctx, todo)
 	if err != nil {
 		return nil, err
