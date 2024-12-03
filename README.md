@@ -31,8 +31,8 @@
 
 ## Environment Variables:
 #Create a .env file in the root directory with the following content:
-  MONGO_URI=mongodb://localhost:27017
-  PORT = 5000
+  - MONGO_URI=mongodb://localhost:27017
+  - PORT = 5000
 
 ## Run the application:
   go run main.go
