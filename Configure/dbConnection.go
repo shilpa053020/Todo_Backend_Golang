@@ -1,12 +1,11 @@
 package configure
 
 import (
-	"context"
+	utils "Todo_Backend_Golang/Utils"
 	"fmt"
 	"log"
 	"os"
 	"time"
-
 	"github.com/joho/godotenv"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -31,7 +30,7 @@ func ConnectToDb() {
 
 	// Set client options
 	clientOptions := options.Client().ApplyURI(DbUrl)
-	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
+	ctx, cancel := utils.GetContext(10*time.Second)
 	defer cancel()
 
 	// Connect to MongoDB
